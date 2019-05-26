@@ -1,8 +1,10 @@
-.header__logo{
-	  height: 100px;
-	 
-	  margin-left: 100px;
+.header__logo {
+ height: 100px;
+
+ margin-left: 100px;
 }
+
+
 hr {
 	color: #7d97ad;
   display: block;
@@ -12,6 +14,8 @@ hr {
   margin: 1em 100px;
   padding: 0;
 }
+
+
 #container {
   display: flex;
   flex-direction: column;
@@ -19,83 +23,106 @@ hr {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items:stretch;
+  align-items: stretch;
   height: 200px; 
   width: 100%;
-
-
 }
-.header-items{
+
+
+.header-items {
  margin-right:  100px;
  color: #2d3c49;
-  height: 100px;
-  font-family: serif;
-}.first-image{
-background-image: url("./Bilder/photo-1465146344425-f00d5f5c8f07.jpg");
-width: 100%;
-height: 990px;
-margin-bottom: 100px;
-;
+ height: 100px;
+ font-family: serif;
+ }
+
+ .first-image {
+  background-image: url("./Bilder/photo-1465146344425-f00d5f5c8f07.jpg");
+  width: 100%;
+  height: 990px;
+  margin-bottom: 100px;
+  ;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
 }
-section{
-	height:fit-content;
+
+
+section {
+	height: fit-content;
   overflow: auto;
   margin: auto 100px;
 }
 
-h1{
-  margin:initial;
+
+h1 {
+  margin: initial;
   font-size: 4.25rem;
-	color: #7d97ad;
+  color: #7d97ad;
 }
-h3{
+
+
+h3 {
   margin: inherit;
   font-size: 3.25rem;
 
 }
+
+
 #section-1 {
   height: 1200px;
 }
+
+
 #section-1 p {
   font-size: 4.25rem;
   letter-spacing: 0.05em;
   position: relative;
   margin-top: 250px;
 }
+
+
 .flex-container-2 {
   display: flex;
   justify-content: space-between;
-}.flower {
-  width: 100%;
-  height:fit-content;
- position: relative;
-  top: 200px;
-}
+  }
+
+  .flower {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    top: 200px;
+  }
+
+
   .flex-container-2 div {
 
     width: 30%;
-   
+
     
     position: relative;
   }
-  footer{
+
+
+  footer {
   	margin-right: 100px;
   	margin-left: 100px;
-        display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
 
   }
-  footer p{
+
+
+  footer p {
     font-size: 5.25rem;
 
   }
